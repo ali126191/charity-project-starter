@@ -8,42 +8,42 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/charity-protect-starter/offline-plugin-app-shell-fallback/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---node-modules-gatsby-plugin-offline-app-shell-js-9e2d5eea4b10a0f4c97e.js>; rel=preload; as=script
-/charity-protect-starter/blog
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-blog-js-d3eacaab23a26190d050.js>; rel=preload; as=script
-/charity-protect-starter/contact/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-contact-page-js-652f89b35363424e87fd.js>; rel=preload; as=script
-/charity-protect-starter/pricing/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-pricing-page-js-bc06a6a72130d05f216c.js>; rel=preload; as=script
-/charity-protect-starter/about/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-about-page-js-92b19497935f95c7419d.js>; rel=preload; as=script
-/charity-protect-starter/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-home-page-js-dd5f474ff878ed4cad4e.js>; rel=preload; as=script
-/charity-protect-starter/blog/lorem-ipsum-dolor-situm/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/styles.825174c0eb0bd7463bda.css>; rel=preload; as=script
-/charity-protect-starter/tags/lorem/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-tags-js-ad58fa5f0fc0de4a8f88.js>; rel=preload; as=script
-/charity-protect-starter/tags/ipsum/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-templates-tags-js-ad58fa5f0fc0de4a8f88.js>; rel=preload; as=script
-/charity-protect-starter/404/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-pages-404-js-fc1c578e872ef5464862.js>; rel=preload; as=script
-/charity-protect-starter/contact/success/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-pages-contact-success-index-js-2cace0bab48a72086a53.js>; rel=preload; as=script
-/charity-protect-starter/tags/
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/1-f31ebeaf18340a84a8aa.js>; rel=preload; as=script
-/charity-protect-starter/404.html
-  Link: </charity-protect-starter/webpack-runtime-d21de31203778d0cca34.js>; rel=preload; as=script
-  Link: </charity-protect-starter/component---src-pages-404-js-fc1c578e872ef5464862.js>; rel=preload; as=script
+/charity-project-starter/offline-plugin-app-shell-fallback/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---node-modules-gatsby-plugin-offline-app-shell-js-9e2d5eea4b10a0f4c97e.js>; rel=preload; as=script
+/charity-project-starter/blog
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-blog-js-d3eacaab23a26190d050.js>; rel=preload; as=script
+/charity-project-starter/contact/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-contact-page-js-652f89b35363424e87fd.js>; rel=preload; as=script
+/charity-project-starter/pricing/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-pricing-page-js-bc06a6a72130d05f216c.js>; rel=preload; as=script
+/charity-project-starter/about/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-about-page-js-92b19497935f95c7419d.js>; rel=preload; as=script
+/charity-project-starter/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-home-page-js-dd5f474ff878ed4cad4e.js>; rel=preload; as=script
+/charity-project-starter/blog/lorem-ipsum-dolor-situm/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/styles.825174c0eb0bd7463bda.css>; rel=preload; as=script
+/charity-project-starter/tags/lorem/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-tags-js-ad58fa5f0fc0de4a8f88.js>; rel=preload; as=script
+/charity-project-starter/tags/ipsum/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-templates-tags-js-ad58fa5f0fc0de4a8f88.js>; rel=preload; as=script
+/charity-project-starter/404/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-pages-404-js-fc1c578e872ef5464862.js>; rel=preload; as=script
+/charity-project-starter/contact/success/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-pages-contact-success-index-js-2cace0bab48a72086a53.js>; rel=preload; as=script
+/charity-project-starter/tags/
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/1-f31ebeaf18340a84a8aa.js>; rel=preload; as=script
+/charity-project-starter/404.html
+  Link: </charity-project-starter/webpack-runtime-7053f174e65eda502fdc.js>; rel=preload; as=script
+  Link: </charity-project-starter/component---src-pages-404-js-fc1c578e872ef5464862.js>; rel=preload; as=script
