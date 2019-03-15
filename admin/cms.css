@@ -1,3 +1,20 @@
+
+
+.hr-left {
+  text-align: left;
+  width:30%;
+  max-width:300px;
+  background:rgb(255, 0, 0);
+}
+
+.hr-blue {
+  border: 1.5px dotted #4054B2;
+  color:#fff;
+}
+
+.hr-full-width {
+  width:100%;
+}
 /*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
