@@ -24,44 +24,7 @@ workbox.clientsClaim();
  * requests for URLs in the manifest.
  * See https://goo.gl/S9QRab
  */
-self.__precacheManifest = [
-  {
-    "url": "webpack-runtime-b2e83f6a4782ac1530a1.js"
-  },
-  {
-    "url": "styles.7f37d1282826e69c2e05.css"
-  },
-  {
-    "url": "styles-b83ed907e23b31eda875.js"
-  },
-  {
-    "url": "app-db5e0660672af70fa565.js"
-  },
-  {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9e2d5eea4b10a0f4c97e.js"
-  },
-  {
-    "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4f3ff20fe7ade832c7003cf3109347f5"
-  },
-  {
-    "url": "component---src-pages-404-js-0942b3e21002dab298fd.js"
-  },
-  {
-    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json"
-  },
-  {
-    "url": "manifest.json",
-    "revision": "b773e901ef06ac93343dc05e67540787"
-  },
-  {
-    "url": "manifest.webmanifest",
-    "revision": "83ae57c94b4a0b23ffbb1ecbe6985f41"
-  }
-].concat(self.__precacheManifest || []);
+self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
