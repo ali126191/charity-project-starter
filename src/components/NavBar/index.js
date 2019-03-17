@@ -1,8 +1,8 @@
 import React from 'react'
-import {Link, graphql, StaticQuery} from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
 import SearchBox from '../SearchBox'
 
-const NavBar = ({toggleNavbar, isActive}) => (
+const NavBar = ({ toggleNavbar, isActive }) => (
   <StaticQuery
     query={graphql`
             query SearchIndexQuery {
@@ -20,6 +20,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
             data-target='navMenu'
+            aria-label="Menu toggle button"
             onClick={toggleNavbar}
           >
             <span />
@@ -32,13 +33,13 @@ const NavBar = ({toggleNavbar, isActive}) => (
           <div className='navbar-end'>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
             <Link className='navbar-item' to='/about'>
-                            About
+              About
             </Link>
             <Link className='navbar-item' to='/pricing'>
-                            Pricing
+              Pricing
             </Link>
             <Link className='navbar-item' to='/blog'>
-                            Blog
+              Blog
             </Link>
             <div className='navbar-item'>
               <div className='field is-grouped'>
@@ -46,7 +47,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
                   <Link
                     className='button is-primary is-outlined'
                     to='/contact'>
-                            Contact Us
+                    Contact Us
                   </Link>
                 </p>
               </div>
