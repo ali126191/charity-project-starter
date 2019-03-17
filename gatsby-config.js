@@ -96,7 +96,7 @@ module.exports = {
       options: {
         name: config.siteTitle,
         short_name: config.siteTitleAlt,
-        start_url: '/index.html',
+        start_url: '/charity-project-starter/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
@@ -118,7 +118,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
-        setup (ref) {
+        setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata
           ret.allMarkdownRemark = ref.query.allMarkdownRemark
           ret.generator = config.siteTitle
@@ -143,7 +143,7 @@ module.exports = {
               `,
         feeds: [
           {
-            serialize (ctx) {
+            serialize(ctx) {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
               return ctx.query.allMarkdownRemark.edges
                 .filter(
@@ -157,7 +157,7 @@ module.exports = {
                   author: rssMetadata.author,
                   url: rssMetadata.site_url + edge.node.fields.slug,
                   guid: rssMetadata.site_url + edge.node.fields.slug,
-                  custom_elements: [{'content:encoded': edge.node.html}],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 }))
             },
             query: `
