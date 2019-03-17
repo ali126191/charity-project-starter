@@ -16,6 +16,7 @@ module.exports = {
       copyright: config.copyright,
     },
   },
+  pathPrefix: "/charity-project-starter",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
