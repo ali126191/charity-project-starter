@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{171:function(e,a,s){"use strict";s.r(a);var t=s(0),c=s.n(t);a.default=function(){return c.a.createElement("section",{className:"hero is-primary is-bold is-large"},c.a.createElement("div",{className:"hero-body has-text-centered"},c.a.createElement("h1",{className:"title"},"Success")))}}}]);
+//# sourceMappingURL=component---src-pages-contact-success-index-js-4569e330df2fac70e0fc.js.map
