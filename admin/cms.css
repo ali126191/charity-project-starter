@@ -4,6 +4,10 @@
   src: local('roboto'), url(https://fonts.gstatic.com/s/roboto/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
 }
 
+#h1 {
+  background: url('')
+}
+
 .hr-left {
   text-align: left;
   width:30%;
@@ -34,7 +38,13 @@
   width: 100%;
 }
 
+.table__wrapper {
+  overflow-x: auto;
+}
 
+#center {
+  margin:0 auto;
+}
 /*! bulma.io v0.7.4 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
