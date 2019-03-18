@@ -131,7 +131,7 @@ const HomePageTemplate = ({
                   <div className="columns is-vcentered">
                     <div className="column content">
                       <hr className="hr-left" />
-                      <h3 className="is-size-4 has-text-link is-uppercase">Texta1  CULTURAL PRESERVATION</h3>
+                      <h3 className="is-size-4 has-text-link is-uppercase">Texta221s  CULTURAL PRESERVATION</h3>
                       <p className="is-size-5">Through events and story telling, we keep the ancient Hindu traditions alive ensuring their adoption by the next generation of Canadians.</p>
                     </div>
                     <div className="column">
