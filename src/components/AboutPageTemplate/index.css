@@ -1,0 +1,21 @@
+.max-width-columns {
+    margin:0 auto;
+    max-width: 1140px;
+}
+
+.background-image {
+    padding:15%;
+    background: red;
+}
+
+.v-center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#ul {
+    display: inline;
+    margin:0;
+    padding:0;
+}

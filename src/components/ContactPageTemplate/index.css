@@ -1,0 +1,16 @@
+
+.h-center {
+    display: flex;
+    justify-content: center;
+}
+
+.full-width {
+    display: block;
+    width:100%;
+    max-width: 650;
+}
+
+
+#max-height {
+ max-height: 110vh;   
+}

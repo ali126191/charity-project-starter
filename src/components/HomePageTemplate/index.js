@@ -32,7 +32,6 @@ const HomePageTemplate = ({
                 <h1 id='h1'className='title has-text-centered is-size-2 is-capitalized'>
                     Mississauga Hindu Temple In The hear of the greater toronto area that welcomes all regarless of race or religious beliefs. come visit one of canada's oldest hindu mandir's and discover the beauty of celebrating diversity
                 </h1>
-                {/* <p className='block has-text-centered is-size-3'><a className='is-link is-3' href='#about'>link</a></p> */}
               </div>
             </div>
           </div>
@@ -61,8 +60,7 @@ const HomePageTemplate = ({
 
         <section className='section'>
           <figure className='video-container'>
-            <iframe title='temple video' width='1035' height='1000' src='https://www.youtube.com/embed/mgabrMvtUrw' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
-          </figure>
+          <iframe title='temple video' width="1180" height="664" src="https://www.youtube.com/embed/8HGSDKG1Fqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </figure>
           <div className='block content'>
             <br />
             <br />
@@ -143,7 +141,7 @@ const HomePageTemplate = ({
                   </div>
                   <div className='column'>
                     <figure className='video-container'>
-                      <iframe title='video two' width='1522' height='856' src='https://www.youtube.com/embed/Fa9dFBf5Z4A' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+                     <iframe title='videoo' width="1079" height="607" src="https://www.youtube.com/embed/mgabrMvtUrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </figure>
                   </div>
                 </div>
@@ -290,7 +288,7 @@ const HomePageTemplate = ({
           <div className='section block is-flex is-horizontal-center'>
             <br />
             <br />
-            <div className='columns is-mobile is-vcentered'>
+            <div className='columns is-vcentered'>
               <div className='column'>
                 <figure className='image is-256x256'>
                   <img src='https://shrivitthal.com/wp-content/uploads/2018/02/mississauga-hindu-temple-300x61.jpg' alt='img1' />
@@ -309,10 +307,10 @@ const HomePageTemplate = ({
             </div>
           </div>
         </section>
-
+      
       </div>
     </section>
-  </div >
+  </div>
 )
 
 HomePageTemplate.propTypes = {

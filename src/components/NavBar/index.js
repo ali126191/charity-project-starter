@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import SearchBox from '../SearchBox'
+// import SearchBox from '../SearchBox'
 
 const NavBar = ({ toggleNavbar, isActive }) => (
   <StaticQuery
@@ -41,17 +41,17 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             <Link className='navbar-item' to='/pricing'>
               Our Services
             </Link>
-            <Link className='navbar-item' to='/blog'>
+            <Link className='navbar-item' to='/contact'>
               Contact Us
             </Link>
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
-                  <Link
+                  <a
                     className='button is-primary is-outlined'
-                    to='/contact'>
+                    href='https://us4.list-manage.com/subscribe?u=08406db9cc49d8dd58bd3a28a&id=f70b74727c'>
                     Events
-                  </Link>
+                  </a>
                 </p>
               </div>
             </div>
