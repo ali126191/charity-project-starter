@@ -7539,4 +7539,22 @@ span {
 }
 
 
+.h-center {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+.full-width {
+    display: block;
+    width:100%;
+    max-width: 650;
+}
+
+
+#max-height {
+ max-height: 110vh;   
+}
+
 /*# sourceMappingURL=cms.css.map*/
