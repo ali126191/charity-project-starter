@@ -6,11 +6,30 @@
 
 .full-width {
     display: block;
+    
     width:100%;
     max-width: 650;
 }
 
 
-#max-height {
- max-height: 110vh;   
+/* #max-height {
+ max-height: 50vh;   
+} */
+
+.text {
+    background:red;
+}
+
+.margin-auto {
+    text-align: center;
+}
+
+.full-width {
+    width:100%;
+    display: block;
+}
+
+.background-image {
+    height: 40vh;
+    margin:1.5rem 0;
 }
