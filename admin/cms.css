@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @font-face {
   font-family: 'Roboto';
   font-display: auto;
@@ -7500,8 +7501,18 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+@font-face {
+  font-family: 'Roboto';
+  font-display: auto;
+  src: local("roboto"), url(https://fonts.googleapis.com/css?family=Roboto:300,400,700) format("woff2"); }
+
+.section,
+.content,
+.title {
+  font-family: "Roboto", "Helvetica", "serif"; }
+
 html {
-  font-size: 103%; }
+  font-size: 90%; }
   @media screen and (min-width: 769px), print {
     html {
       font-size: 107%; } }
