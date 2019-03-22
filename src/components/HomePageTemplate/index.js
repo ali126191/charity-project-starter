@@ -60,7 +60,7 @@ const HomePageTemplate = ({
 
         <section className='section'>
           <figure className='video-container'>
-          <iframe title='temple video' width="1180" height="664" src="https://www.youtube.com/embed/8HGSDKG1Fqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </figure>
+            <iframe title='temple video' width='1180' height='664' src='https://www.youtube.com/embed/8HGSDKG1Fqk' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />          </figure>
           <div className='block content'>
             <br />
             <br />
@@ -141,7 +141,7 @@ const HomePageTemplate = ({
                   </div>
                   <div className='column'>
                     <figure className='video-container'>
-                     <iframe title='videoo' width="1079" height="607" src="https://www.youtube.com/embed/mgabrMvtUrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe title='videoo' width='1079' height='607' src='https://www.youtube.com/embed/mgabrMvtUrw' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
                     </figure>
                   </div>
                 </div>
@@ -306,8 +306,8 @@ const HomePageTemplate = ({
               </div>
             </div>
           </div>
+
         </section>
-      
       </div>
     </section>
   </div>

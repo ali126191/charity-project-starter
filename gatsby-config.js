@@ -65,6 +65,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 2048,
             },
+
           },
         ],
       },
@@ -111,6 +112,19 @@ module.exports = {
             src: `/icons/icon-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
+          },
+          {
+            resolve: 'gatsby-plugin-guess-js',
+            options: {
+              // Find the view id in the GA admin in a section labeled "views"
+              GAViewID: `VIEW_ID`,
+              minimumThreshold: 0.03,
+              // The "period" for fetching analytic data.
+              period: {
+                startDate: new Date('2018-1-1'),
+                endDate: new Date(),
+              },
+            },
           },
         ],
       },
