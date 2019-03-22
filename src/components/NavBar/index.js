@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
+// import './index.css'
 // import SearchBox from '../SearchBox'
 
 const NavBar = ({ toggleNavbar, isActive }) => (

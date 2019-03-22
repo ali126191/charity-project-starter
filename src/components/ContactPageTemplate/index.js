@@ -1,17 +1,17 @@
 import React, {Component} from 'react'
 // import { navigate } from 'gatsby-link'
-import { library } from '@fortawesome/fontawesome-svg-core'
+// import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
 // import Helmet from 'react-helmet'
 // import PropTypes from 'prop-types'
 import './index.css'
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
+// const encode = (data) => {
+//   return Object.keys(data)
+//     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+//     .join('&')
+// }
 
 class ContactPageTemplate extends Component {
   constructor (props) {
@@ -70,32 +70,31 @@ class ContactPageTemplate extends Component {
               <br />
               <br />
               <h5 className='content has-text-centered has-text-weight-semibold is-size-4 is-large'>You can contact us directly at <a>info@shrivitthal.com</a></h5>
-              <div className='columns is-multiline margin-auto'>
+              <div className='columns block is-multiline margin-auto is-gapless'>
                 <div className='column is-half'>
-                  <div className='columns is-mobile'>
+                  <div className='columns is-mobile is-gapless'>
                     <div className='column is-2'>
-                      <FontAwesomeIcon icon={faHome} size='lg' style={{color: 'black'}} />
+                      <p className='content is-size-5'>
+                        <FontAwesomeIcon icon={faHome} size='lg' style={{color: 'black'}} />
+                      </p>
                     </div>
                     <div className='column is-10'>
-                asds
+                      <p className='content is-size-5 has-text-center'>
+                      5359 Timberlea Blvd #10, Mississauga, Ontario, Canada</p>
                     </div>
                   </div>
                 </div>
                 <div className='column is-half'>
-                  <div className='columns is-mobile'>
+                  <div className='columns is-mobile is-gapless'>
                     <div className='column is-2'>
-
-                      <div className='column'>
-                        <p className='content is-size-5 is-10'>
-                  Volunteering is good for your mind body, and soul.  Here are a few reasons why you should help others:</p>
-                      </div>
+                      <p className='content is-size-5'>
+                        <FontAwesomeIcon icon={faPhoneSquare} size='lg' rotation={90} />
+                      </p>
                     </div>
                     <div className='column is-10'>
-
-                      <div className='column'>
-                        <p className='content is-size-5 is-10'>
-                  Volunteering is good for your mind body, and soul.  Here are a few reasons why you should help others:</p>
-                      </div>
+                      <p className='content is-size-5 has-text-left'>
+                      (905) 290-8321
+                      </p>
                     </div>
                   </div>
                 </div>
