@@ -11,14 +11,14 @@ const PricingPageTemplate = ({
   pricing,
 }) => (
   <div>
-    <section className='hero is-primary is-bold is-medium'>
+    <section id='header' className='hero is-primary is-bold is-medium'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='section'>
-                <h1 id='h1'className='title has-text-centered is-size-1 is-capitalized is-spaced'>WE ARE SVHM</h1>
-                <h3 className='subtitle has-text-centered is-size-5 is-capitalized'>Local Community &amp; Cultural Center in Mississauga</h3>
+                <h1 id='h1'className='title has-text-centered is-size-1 is-capitalized is-spaced'>SERVICES</h1>
+                <h3 className='subtitle has-text-centered is-size-5 is-capitalized'>- SHRI VITTHAL HINDU MANDIR -</h3>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const PricingPageTemplate = ({
               <li className='is-size-5'>Good judgment;</li>
               <li className='is-size-5'>Willingness to follow instructions and work cooperatively as a team member;</li>
               <li className='is-size-5'>Ability to perform and follow through on unsupervised duties on an individual basis.</li>
-              <br/>
+              <br />
               <span className='content is-size-5'>We are looking to fill the following volunteer roles:</span>
               <span className='is-size-5'>Director of Resource Development – Lead fundraising initiatives.</span>
               <span className='is-size-5'>Community Manager – Manage our online website and social media channels.</span>

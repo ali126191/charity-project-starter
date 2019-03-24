@@ -1,17 +1,15 @@
-@font-face {
-  font-family: 'Roboto';
-  font-display: auto;
-  src: local('roboto'), url(https://fonts.gstatic.com/s/roboto/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
-
 
 
 /* Speical classes or ids added to the attributes*/
-#h1 {
-  background: url('')
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../img/shri-vitthal-mandir-location.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hr-left {
+
   text-align: left;
   width:30%;
   max-width:300px;

@@ -44,7 +44,7 @@ class ContactPageTemplate extends Component {
     // const {title, subtitle, meta_title, meta_description} = this.props
     return (
       <div>
-        <section className='hero is-primary is-bold is-medium'>
+        <section id='header' className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>
               <div className='columns'>

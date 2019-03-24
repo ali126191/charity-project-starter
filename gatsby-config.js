@@ -24,7 +24,7 @@ module.exports = {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/assets/img`,
+        path: `${__dirname}/src/img`,
         name: 'uploads',
       },
     },
@@ -39,10 +39,10 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/assets/img`,
-        name: 'images',
+        name: `img`,
+        path: `${__dirname}/src/img/`,
       },
     },
     'gatsby-plugin-sharp',

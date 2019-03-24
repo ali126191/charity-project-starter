@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import '../assets/sass/styles.sass'
 import config from '../../data/config'
+import 'typeface-roboto'
 
 class TemplateWrapper extends Component {
   constructor (props) {
@@ -18,7 +19,7 @@ class TemplateWrapper extends Component {
 
   render () {
     return (
-      <div>
+      <div style={{'font-family': 'roboto, helvetica, arail'}}>
         <Helmet>
           <title>{config.siteTitle}</title>
           <meta name='description' content={config.siteDescription} />

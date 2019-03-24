@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 // import Offerings from '../Offerings'
 // import Testimonials from '../Testimonials'
+// import { StaticQuery, graphql } from 'gatsby'
+// import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
 import './index.css'
 
@@ -23,7 +25,7 @@ const HomePageTemplate = ({
       <meta name='description' content={meta_description} />
     </Helmet>
 
-    <section className='hero is-primary is-bold is-medium'>
+    <section id='header' className='hero is-primary is-bold is-medium'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -306,7 +308,6 @@ const HomePageTemplate = ({
               </div>
             </div>
           </div>
-
         </section>
       </div>
     </section>
@@ -327,3 +328,4 @@ HomePageTemplate.propTypes = {
 }
 
 export default HomePageTemplate
+

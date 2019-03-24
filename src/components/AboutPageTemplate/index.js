@@ -8,7 +8,7 @@ const AboutPageTemplate = ({title, content, contentComponent}) => {
 
   return (
     <div>
-      <section className='hero is-primary is-bold is-medium'>
+      <section id='header' className='hero is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns'>
@@ -70,7 +70,7 @@ const AboutPageTemplate = ({title, content, contentComponent}) => {
       </section>
 
       <section id='footer' className='section block is-vcentered background-image' >
-        <h3 className='has-text-centered is-size-2 is-uppercase has-text-weight-semibold is-large block has-text-white'>
+        <h3 className='has-text-centered is-size-2 is-uppercase has-text-weight-semibold is-large block has-text-white add-padding'>
         SVHM is committed to unity, liberty, and community.
         </h3>
       </section>
@@ -81,7 +81,7 @@ const AboutPageTemplate = ({title, content, contentComponent}) => {
           <section className='section block'>
             <div className='content'>
               <div>
-                <h2 className='content has-text-centered has-text-weight-semibold is-size-3 is-uppercase is-large'>
+                <h2 className='content has-text-centered has-text-weight-semibold is-size-3 is-uppercase'>
                 WHAT WE BELIEVE
                 </h2>
                 <br />
